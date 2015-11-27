@@ -23,16 +23,6 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_steamid", Command_SteamId, "Displays SteamID of target in chat");
 }
 
-public void steamid(int client, int index) {
-	char authId[64];
-	char name[MAX_NAME_LENGTH];
-	GetClientName(index, name, sizeof(name));
-	GetClientAuthId(index, AuthId_Steam2, authId, sizeof(authId));
-	
-	ReplyToCommand(client, "[SM] Success! Go to console to copy your target's SteamID!");
-	PrintToConsole(client, "[SM] SteamID of %s: %s", name, authId);
-}
-
 public Action Command_SteamId(int iClient, int iArgs) {
 	char targetName[MAX_NAME_LENGTH];
 	
