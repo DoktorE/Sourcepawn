@@ -1,1 +1,5 @@
+Version 2.0
+  - unfucked things
+
 Version 1.0
+  - fucked things
