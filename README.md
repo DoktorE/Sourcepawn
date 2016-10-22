@@ -1,2 +1,2 @@
 # Sourcepawn
-A collection of my horribly broken spaghetti sourcemod plugins. Enjoy.
+Most of my old Sourcemod projects that were never finished/utilized. 
